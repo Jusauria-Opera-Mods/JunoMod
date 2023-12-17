@@ -1,0 +1,41 @@
+/* css/opera.css */
+:root{
+    --blue-paw:#9FDFE8;
+    --pink-paw:#F9819D;
+    --darker-brown: #40150C;
+    --light-brown:#DAA36D;
+    --white-fur: #F7F2EE;
+}
+
+p{
+    color: var(--darker-brown) !important;
+}
+h1{
+    color: var(--pink-paw) !important;
+}
+h2{
+    color: var(--blue-paw) !important;
+}
+h3{
+    color: var(--light-brown);
+}
+
+a{
+    color: var(--blue-paw) !important;
+}
+a:hover{
+    color: var(--pink-paw) !important;
+}
+/* css/opera.css */
+
+/* Set linear gradient background for scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background: rgb(90, 218, 238);
+    background: linear-gradient(var(--blue-paw),var(--pink-paw));
+}
+
+/* Set the color of the scrollbar track */
+::-webkit-scrollbar-track {
+    background-color: var(--white-fur);
+}
+
